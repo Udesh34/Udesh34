@@ -1,27 +1,6 @@
 Drill 1:
-mkdir hello
-cd hello
-mkdir five one
-cd five
-mkdir six
-cd six
-touch c.txt
-mkdir seven
-touch seven/error.log
-cd ../..
-cd one
-touch a.txt b.txt
-mkdir two
-cd two
-touch d.txt
-mkdir three
-cd three
-touch e.txt
-mkdir four
-touch four/access.log
-tree
-cd ../../..
-tree
+mkdir hello hello/five hello/five/six hello/five/six/seven hello/one hello/one/two hello/one/two/three hello/one/two/three/four
+touch hello/five/six/c.txt hello/five/six/seven/error.log hello/one/a.txt hello/one/b.txt hello/one/two/d.txt hello/one/two/three/e.txt hello/one/two/three/four/access.log
 
 Drill 2:
 find . -name "*.log" -type f -delete
