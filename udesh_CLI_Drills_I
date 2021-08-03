@@ -1,0 +1,44 @@
+Drill 1:
+mkdir hello
+cd hello
+mkdir five one
+cd five
+mkdir six
+cd six
+touch c.txt
+mkdir seven
+touch seven/error.log
+cd ../..
+cd one
+touch a.txt b.txt
+mkdir two
+cd two
+touch d.txt
+mkdir three
+cd three
+touch e.txt
+mkdir four
+touch four/access.log
+tree
+cd ../../..
+tree
+
+Drill 2:
+find -name "*log" -delete
+
+Drill 3:
+tree
+cd one
+nano a.txt
+
+Drill 4:
+cd ..
+rm -r five
+tree
+
+Drill 5:
+mv one uno
+
+Drill 6:
+cd uno
+mv a.txt two/
