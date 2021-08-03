@@ -24,7 +24,7 @@ cd ../../..
 tree
 
 Drill 2:
-find -name "*log" -delete
+find . -name "*.log" -type f -delete
 
 Drill 3:
 tree
@@ -41,4 +41,4 @@ mv one uno
 
 Drill 6:
 cd uno
-mv a.txt two/
+mv a.txt two
